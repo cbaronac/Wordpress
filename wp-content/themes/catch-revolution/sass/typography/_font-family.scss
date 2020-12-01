@@ -1,0 +1,28 @@
+/**
+ * 2.2 - Font-Family
+ */
+
+body,
+button,
+input,
+select,
+textarea,
+#popular {
+	font-family: $body-font;
+}
+
+blockquote cite,
+blockquote small {
+	font-family: $cite-font;
+}
+
+
+.custom-header-content .section-title,
+.section-title .title-two,
+#contact-section .entry-title .title-two,
+#feature-slider-section .entry-container .entry-title,
+.custom-header-media .section-title-wrapper,
+#feature-slider-section .owl-dot:before {
+	font-family: $heading-font;
+}
+

@@ -1,0 +1,342 @@
+/*
+Theme Name: Verdant
+Theme URI: http://www.cryoutcreations.eu/wordpress-themes/verdant
+Description: Verdant is fast, lightweight and responsive. It's also the perfect mix of performance, design and customizations. Verdant works perfectly with the new block editor (Gutenberg) and all your favorite plugins. It's also translatable and built with best SEO practices. And last but not least, Verdant is a child theme of Kahuna.
+Author: Cryout Creations
+Author URI: http://www.cryoutcreations.eu
+Version: 1.0.0
+Tested up to: 5.4.2
+Requires PHP: 5.3
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: one-column, two-columns, three-columns, right-sidebar, left-sidebar, grid-layout, custom-background, custom-colors, custom-header, flexible-header, custom-menu, featured-image-header, featured-images, front-page-post-form, full-width-template, footer-widgets, microformats, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, news, photography, portfolio
+Template: kahuna
+Text Domain: verdant
+
+Verdant WordPress Theme - Copyright 2020, Cryout Creations - http://www.cryoutcreations.eu
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+
+/* HEADER */
+#site-title {
+    padding: 2px 10px;
+    border-radius: 5px;
+    background: rgba(0,0,0,.05);
+}
+
+#access a {
+    padding: 0 1em;
+}
+
+#access > div > ul > li > a > span::before,
+#site-title::before {
+    display: none;
+}
+
+#access > div > ul li > a:not(:only-child) > span::after {
+    top: 5px;
+}
+
+#access > div > ul > li > a > span {
+    padding: 3px 10px;
+    letter-spacing: 0;
+    border-radius: 4px;
+    -webkit-transition: .2s ease-out background-color;
+    transition: .2s ease-out background-color;
+}
+
+#access > div > ul > li > a:hover > span {
+    background-color: rgba(0,0,0,.05);
+}
+
+#access a > span {
+    text-transform: none;
+}
+
+#access .sub-menu li span,
+#access .children li span {
+    padding: 0.4em 0;
+    letter-spacing: 0;
+}
+
+.lp-staticslider .staticslider-caption-title,
+.seriousslider-theme .seriousslider-caption-title {
+    font-size: 3.5em;
+}
+
+.lp-staticslider .staticslider-caption-text,
+.seriousslider-theme .seriousslider-caption-text {
+    font-size: 1.3em;
+}
+
+a.staticslider-button,
+.seriousslider-theme .seriousslider-caption-buttons a.seriousslider-button {
+    border-bottom: none;
+    border-top: 3px solid transparent;
+    padding: 0.75em 2em;
+    border-radius: 4px;
+}
+
+#header-page-title .entry-title {
+    color: #FFF;
+}
+
+#header-page-title-inside {
+    border-radius: 10px;
+}
+
+.lp-staticslider .staticslider-caption-title span,
+.seriousslider.seriousslider-theme .seriousslider-caption-title span,
+.lp-staticslider .staticslider-caption-text span,
+.seriousslider-theme .seriousslider-caption-text span {
+    border-radius: 4px;
+}
+
+#access > div > ul > li > a > span::before,
+#site-title::before {
+    -webkit-transition: .15s ease-out all;
+    transition: .15s ease-out all;
+}
+
+#site-title::before {
+    height: 2px;
+    opacity: 1;
+}
+
+#site-title:hover::before {
+    height: 0;
+}
+
+#access > div > ul > li:hover > a > span::before {
+	height: 2px;
+}
+
+.socials a {
+    border-radius: 100px;
+}
+
+/* LANDING PAGE */
+.main .lp-block-title {
+    margin: 1em auto;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.lp-block i[class^="blicon"]::before {
+    border-bottom: none;
+    border-top: 4px solid transparent;
+    border-radius: 6px;
+}
+
+.lp-box-readmore {
+    font-size: .75em;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+}
+
+.lp-box-readmore:hover {
+    border-bottom: 2px solid;
+}
+
+.lp-boxes-static .lp-box-image::after,
+.lp-boxes-static .lp-box-image .box-overlay {
+    height: 3px;
+}
+
+.main .lp-box-title {
+    font-size: 1.2em;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+#header-page-title {
+    height: 100%;
+    width: 100%;
+    max-width: none;
+}
+
+#header-page-title-inside {
+    top: 50%;
+    background: rgba(0,0,0,.5);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#breadcrumbs {
+    text-transform: none;
+}
+
+#header-page-title #breadcrumbs {
+    font-size: .9em;
+}
+
+#header-page-title #breadcrumbs-nav a {
+    color: #FFF;
+}
+
+#breadcrumbs-nav, #header-page-title .byline {
+    color: #FFF;
+}
+
+/* CONTENT */
+#content-masonry article.hentry {
+	margin-right: 2%;
+	margin-bottom: 4%;
+	margin-left: 2%;
+}
+
+#content-masonry article.hentry .article-inner {
+    padding: 20px;
+    -webkit-transition: .25s ease-out all;
+    transition: .25s ease-out all;
+}
+
+#content-masonry article.hentry:hover .article-inner {
+    border-radius: 5px;
+    box-shadow: 0 0 30px 10px rgba(0,0,0,.15);
+}
+
+.kahuna-magazine-one #content-masonry article.hentry {
+	width: 96%;
+}
+
+.kahuna-magazine-two #content-masonry article.hentry {
+	width: 46%;
+}
+
+.kahuna-magazine-three #content-masonry article.hentry {
+	width: 29.33333333%;
+}
+
+.post-thumbnail-container .featured-image-meta {
+    background: rgba(255,255,255,.75)
+}
+
+.post-thumbnail-container .featured-image-meta.entry-meta a,
+.post-thumbnail-container .featured-image-meta.entry-meta i::before,
+.post-thumbnail-container .featured-image-meta.entry-meta,
+.post-thumbnail-container .featured-image-meta.entry-meta time {
+    color: #FFF;
+}
+
+.post-thumbnail-container .featured-image-link::before {
+    font-size: 16px;
+    width: 2em;
+    height: 2em;
+    line-height: 2;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+.post-thumbnail-container:hover picture,
+.post-thumbnail-container:hover .post-featured-image {
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+}
+
+.content-masonry .entry-title {
+    margin-bottom: 10px;
+}
+
+.entry-meta > span {
+    margin-right: .5em;
+    margin-bottom: .5em;
+    padding: 3px 10px;
+    border-radius: 4px;
+    background: rgba(0,0,0,.05);
+}
+
+.entry-meta span a {
+    border: 0;
+}
+
+.entry-meta .avatar {
+    top: .2em;
+    width: 1.1em;
+}
+
+.post-thumbnail-container .entry-meta > span {
+    padding: 0.5em;
+    font-size: .7em;
+    letter-spacing: .8px;
+    -webkit-transition: .2s ease-out all;
+    transition: .2s ease-out all;
+}
+
+.post-thumbnail-container .entry-meta > span:hover {
+    opacity: 0.8;
+}
+
+.continue-reading-link {
+    border-radius: 4px;
+}
+
+.continue-reading-link::before {
+    top: auto;
+    bottom: calc(100% - 4px);
+    opacity: 0.2;
+}
+
+.continue-reading-link:hover::before {
+    top: auto;
+    bottom: 0;
+    opacity: 1;
+}
+
+.continue-reading-link span {
+    top: 1px;
+    text-transform: none;
+}
+
+#author-description .page-title {
+    text-transform: none;
+}
+
+.pagination span,
+.pagination a {
+    border-radius: 6px;
+}
+
+button,
+input[type="button"],
+input[type="submit"],
+ input[type="reset"] {
+     border-radius: 4px;
+ }
+
+ .searchform input[type="search"] {
+     border-width: 2px;
+     border-radius: 4px;
+ }
+
+  /* WIDGETS */
+.widget-title {
+    margin-bottom: 1.6em;
+}
+
+.widget-title span {
+    padding: .5em 1em;
+    line-height: 2;
+    border: none;
+    border-radius: 4px;
+    background: rgba(0,0,0,.1);
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+ /* FOOTER */
+ a#toTop {
+     background: transparent;
+     border-radius: 4px;
+ }
+
+ #colophon {
+     border-top-width: 2px;
+ }
+
+ .footermenu ul li a:hover::after {
+ 	height: 2px;
+ }
+
+/* FIN */

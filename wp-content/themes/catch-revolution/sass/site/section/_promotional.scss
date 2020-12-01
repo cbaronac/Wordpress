@@ -1,0 +1,221 @@
+/**
+ * 7.3.14 - Promotional Headline
+ */
+
+
+.promotion-section {
+    border: none;
+    position: relative;
+}
+
+.promotion-section.section {
+    padding: 30px;
+}
+
+.promotion-section.section .wrapper {
+    padding: 0;
+}
+
+.promotion-section .hentry {
+    position: initial;
+    margin: 0;
+}
+
+.promotion-section.content-frame .entry-container-frame {
+    padding: 2em;
+}
+
+.post-thumbnail-background {
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.promotion-section.content-align-center .post-thumbnail-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.promotion-section .content-wrapper,
+.app-section .content-wrapper {
+    padding: 30px;
+}
+
+.promotion-section .entry-container {
+    max-width: 520px;
+    width: 100%;
+    z-index: 2;
+}
+
+.promotion-section.content-align-left .hentry-inner,
+.promotion-section.content-align-right .hentry-inner {
+    display: flex;
+}
+
+.promotion-section.content-align-center .hentry-inner {
+    display: block;
+}
+
+.promotion-section.content-align-left .hentry-inner {
+    flex-direction: row-reverse;
+}
+
+.promotion-section.content-align-center .entry-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#promotion-section.content-align-center .entry-container-frame {
+    padding: 30px;
+}
+
+
+.app-section.content-frame .entry-container-frame {
+    padding: 3em;
+}
+
+.promotion-section .cover-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.promotion-section.text-align-center {
+    text-align: center;
+}
+
+#hero-section.text-align-right,
+.promotion-section.text-align-right,
+#hero-section.text-align-left,
+.promotion-section.text-align-left,
+.app-section.text-align-left,
+.app-section.text-align-right {
+    text-align: center;
+}
+
+.text-align-left .post-thumbnail img {
+    margin-left: auto;
+}
+
+.text-align-right .post-thumbnail img {
+    margin-right: auto;
+}
+
+.promotion-section.content-align-center .entry-container {
+    margin: 0 auto;
+}
+
+#promotion-section .entry-content + .play-video {
+    bottom: 1%;
+}
+
+#promotion-section .play-video {
+    left: 50%;
+    position: absolute;
+    top: auto;
+    bottom: 2%;
+    transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    z-index: 1;
+
+
+    .play-button {
+        box-shadow: 0px 15px 30px -17px rgba(0, 0, 0, 0.75);
+        -webkit-border: none;
+        @include transition(0.3s ease-in-out);
+        @include border(50%);
+        @include flex;
+        -webkit-box-pack:center;
+            -ms-flex-pack:center;
+                justify-content:center;
+        -webkit-box-align:center;
+            -ms-flex-align:center;
+                align-items:center;
+        height: 48px;
+        padding: 0;
+        width: 48px;
+
+        &:hover,
+        &:focus {
+            animation: ripple 0.7s linear infinite;
+            transform: none;
+        }
+    }
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255,255,255, 0.3),
+                0 0 0 9px rgba(255,255,255, 0.3),
+                0 0 0 16px rgba(255,255,255, 0.3),
+                0 0 0 24px rgba(255,255,255, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 9px rgba(255,255,255, 0.3),
+                0 0 0 16px rgba(255,255,255, 0.3),
+                0 0 0 24px rgba(255,255,255, 0.3),
+                0 0 0 32px rgba(255,255,255, 0);
+  }
+}
+
+#promotion-section.content-align-center.text-align-center .play-video {
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+
+    .play-button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+#promotion-section .play-video .play-button-text {
+    display: none;
+}
+
+#promotion-section.promotion-section .more-link {
+    padding: 0;
+}
+
+
+.promotion-section.content-align-left .post-thumbnail-background,
+.promotion-section.content-align-right .post-thumbnail-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.promotion-section.content-align-left .content-wrapper,
+.promotion-section.content-align-right .content-wrapper {
+    width: auto;
+}
+
+.promotion-section.content-align-left .content-wrapper,
+.promotion-section.content-align-right .content-wrapper {
+    margin: 0 auto;
+}
+
+.promotion-section.content-align-left .post-thumbnail-background,
+.promotion-section.content-align-right .post-thumbnail-background {
+    width: 100%;
+}
+
+#promotion-section .wrapper .hentry-inner .entry-container {
+    padding: 30px;
+}

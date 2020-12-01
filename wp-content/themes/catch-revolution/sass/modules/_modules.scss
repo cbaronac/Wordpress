@@ -1,0 +1,123 @@
+/**
+ * 6.0 - Modules
+ */
+
+.section {
+	clear: both;
+	display: block;
+	padding: 7px 0;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.section-heading-wrapper {
+	display: block;
+	margin: 0;
+	position: relative;
+	text-align: left;
+	width: 100%;
+}
+
+#testimonial-content-section .owl-slideshow {
+	overflow: hidden;
+}
+
+#hero-section,
+#app-section,
+#testimonial-content-section,
+#featured-video-section,
+#contact-section,
+#playlist-section,
+#events-section,
+#product-content-section,
+#stats-section,
+#portfolio-content-section,
+#service-section {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#colophon {
+	background-position: bottom left;
+}
+
+#contact-section .main-image {
+	background-image: url('assets/images/contact-map.jpg');
+}
+
+#service-section {
+	background-image: url('assets/images/services-bg.jpg');
+}
+
+#testimonial-content-section .main-thumbnail {
+	background-image: url('assets/images/testimonial-bg.jpg');
+}
+
+#contact-section {
+	background-image: url('assets/images/contact-bg.jpg');
+}
+
+#stats-section {
+	background-image: url('assets/images/stats-bg.jpg');
+}
+
+#events-section {
+	background-image: url('assets/images/tour-bg.jpg');
+}
+
+#playlist-section {
+	background-image: url('assets/images/playlist-bg.jpg');
+}
+
+#featured-video-section {
+	background-image: url('assets/images/featured-video.jpg');
+}
+
+
+/*-------------------------------------------------------------
+## accessibility
+--------------------------------------------------------------*/
+@import 'accessibility';
+
+/*--------------------------------------------------------------
+## alignments
+--------------------------------------------------------------*/
+@import 'alignments';
+
+/*--------------------------------------------------------------
+## breadcrumbs
+--------------------------------------------------------------*/
+@import 'breadcrumbs';
+
+/*--------------------------------------------------------------
+## captions
+--------------------------------------------------------------*/
+@import 'captions';
+
+/*--------------------------------------------------------------
+## clearings
+--------------------------------------------------------------*/
+@import 'clearings';
+
+/*--------------------------------------------------------------
+## content
+--------------------------------------------------------------*/
+@import 'content';
+
+/*--------------------------------------------------------------
+## media
+--------------------------------------------------------------*/
+@import 'media';
+
+/*--------------------------------------------------------------
+## alignments
+--------------------------------------------------------------*/
+@import 'scroll-up';
+
+/*--------------------------------------------------------------
+## alignments
+--------------------------------------------------------------*/
+@import 'sidebar';

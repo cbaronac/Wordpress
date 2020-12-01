@@ -1,0 +1,51 @@
+body,
+button,
+input,
+select,
+textarea {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.section-subtitle,
+.posts-navigation a,
+#portfolio-content-section .filter-button-group .button,
+.post-navigation .post-title,
+.comment-meta .author-name,
+.catch-instagram-feed-gallery-widget-wrapper .button,
+.ui-tabs .ui-tabs-nav li a {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.site-title,
+.site-description,
+.section-title,
+#testimonial-content-section .section-content-wrapper .entry-content:before {
+	font-family: 'Playfair Display', serif;
+}
+
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.more-link .readmore {
+	font-family: 'Josefin Sans', sans-serif;
+}

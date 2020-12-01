@@ -1,0 +1,405 @@
+# Copyright (C) 2020 FalguniThemes
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ananya\n"
+"Report-Msgid-Bugs-To: https://falgunithemes.com\n"
+"POT-Creation-Date: 2020-10-26 20:53+0400\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: FalguniThemes <support@falgunithemes.com>\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_nx:1,2c;_ex:1,2c;_n:1,2c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: 404.php:24
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:28
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:37
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:53
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive.php:49 index.php:53 search.php:50
+msgid "Prev"
+msgstr ""
+
+#: archive.php:50 index.php:54 search.php:51
+msgid "Next"
+msgstr ""
+
+#: comments.php:40
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:46
+#, php-format
+msgctxt "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:73
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:34
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:37
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:43
+#, php-format
+msgid "Theme: %1$s"
+msgstr ""
+
+#: functions.php:55
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:107
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:109 functions.php:119 functions.php:129 functions.php:139
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:117
+msgid "Footer Widget Area - Left"
+msgstr ""
+
+#: functions.php:127
+msgid "Footer Widget Area - Center"
+msgstr ""
+
+#: functions.php:137
+msgid "Footer Widget Area - Right"
+msgstr ""
+
+#: functions.php:180
+msgid "expand child menu"
+msgstr ""
+
+#: functions.php:181
+msgid "collapse child menu"
+msgstr ""
+
+#: functions.php:212
+msgctxt "Google font for body text: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:218
+msgctxt " Gogle font for heading text: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:335
+msgid "Search Icon"
+msgstr ""
+
+#: header.php:34
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:89
+msgid "Close Search"
+msgstr ""
+
+#: inc/custom-header.php:37
+msgid "Default Header Image"
+msgstr ""
+
+#: inc/custom-header.php:131
+msgid "Header Section"
+msgstr ""
+
+#: inc/custom-header.php:138
+msgid "Hero Section Text"
+msgstr ""
+
+#: inc/custom-header.php:156
+msgid "Enter Header/Banner Title"
+msgstr ""
+
+#: inc/custom-header.php:157
+msgid ""
+"<i>This title will appear over the header image. Enter short title of upto "
+"two to three lines to avoid overlaping of the header title with the site "
+"title on mobile devices.</i>"
+msgstr ""
+
+#: inc/custom-header.php:173
+msgid "Enter Header/Banner Sub Title"
+msgstr ""
+
+#: inc/custom-header.php:174
+msgid "<i>This sub title will appear over the header image.</i>"
+msgstr ""
+
+#: inc/custom-header.php:182
+msgid "Button text"
+msgstr ""
+
+#: inc/custom-header.php:194
+msgid "Button URL"
+msgstr ""
+
+#: inc/custom-header.php:209
+msgid "Header Media Options"
+msgstr ""
+
+#: inc/custom-header.php:224
+msgid "Full screen header"
+msgstr ""
+
+#: inc/custom-header.php:225
+msgid ""
+"(Select the checkbox if you want full screen header video/image on the "
+"frontpage/homepage of your website.)"
+msgstr ""
+
+#: inc/custom-header.php:238
+msgid "Use header image only on frontpage/homepage."
+msgstr ""
+
+#: inc/custom-header.php:239
+msgid ""
+"(Select the checkbox if you do not want to use the header image on single "
+"post pages and other pages.)"
+msgstr ""
+
+#: inc/custom-header.php:246
+msgid "Header Media Overlay"
+msgstr ""
+
+#: inc/custom-header.php:261
+msgid "Header Overlay Type"
+msgstr ""
+
+#: inc/custom-header.php:264
+msgid "Default"
+msgstr ""
+
+#: inc/custom-header.php:265
+msgid "Dark Color"
+msgstr ""
+
+#: inc/custom-header.php:266
+msgid "No Overlay"
+msgstr ""
+
+#: inc/customizer.php:42
+msgid "Accent Color"
+msgstr ""
+
+#: inc/customizer.php:45
+msgid "Applied to some of the elements."
+msgstr ""
+
+#: inc/customizer.php:56
+msgid "Theme Other Options"
+msgstr ""
+
+#: inc/customizer.php:64
+msgid "Blog Page Settings"
+msgstr ""
+
+#: inc/customizer.php:80
+msgid "How would you like to dispaly post content on Blog posts index page?"
+msgstr ""
+
+#: inc/customizer.php:85
+msgid "Post Excerpt"
+msgstr ""
+
+#: inc/customizer.php:86
+msgid "Full Post"
+msgstr ""
+
+#: inc/customizer.php:100
+msgid "Hide footer of a post on Blog posts index page."
+msgstr ""
+
+#: inc/customizer.php:101
+msgid ""
+"If you select this option the blog post footer which has post's Categories "
+"and Social Media Sharing buttons will be removed."
+msgstr ""
+
+#: inc/customizer.php:110
+msgid "Single Post Settings"
+msgstr ""
+
+#: inc/customizer.php:126
+msgid "Hide social media sharing icons on a single post."
+msgstr ""
+
+#: inc/customizer.php:135
+msgid "Social Menu Section"
+msgstr ""
+
+#: inc/customizer.php:150
+msgid "Enable Social Media Icons in top Navigation."
+msgstr ""
+
+#: inc/customizer.php:204
+msgid "Cart"
+msgstr ""
+
+#: inc/customizer.php:206
+msgid "Credit Card"
+msgstr ""
+
+#: inc/customizer.php:219
+msgid "Social Media Name"
+msgstr ""
+
+#: inc/customizer.php:234
+msgid "Social Media URL"
+msgstr ""
+
+#: inc/customizer.php:246
+msgid "Search Box"
+msgstr ""
+
+#: inc/customizer.php:264
+msgid "Add Search button to the Top Navigation."
+msgstr ""
+
+#: inc/customizer.php:274
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer.php:302
+msgid "Heading Font"
+msgstr ""
+
+#: inc/customizer.php:323
+msgid "Body Font Family"
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "On "
+msgstr ""
+
+#: inc/template-tags.php:54
+msgid "By "
+msgstr ""
+
+#: inc/template-tags.php:56
+msgid "Posted By "
+msgstr ""
+
+#: inc/template-tags.php:89 inc/template-tags.php:367
+#: template-parts/content-page.php:44
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/template-tags.php:193
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:213
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:235
+#, php-format
+msgid "0 Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:288
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:292
+msgctxt "post navigation"
+msgid "Previous Post: "
+msgstr ""
+
+#: inc/template-tags.php:292
+msgid "Previous Post"
+msgstr ""
+
+#: inc/template-tags.php:297
+msgctxt "post navigation"
+msgid "Next Post: "
+msgstr ""
+
+#: inc/template-tags.php:297
+msgid "Next Post"
+msgstr ""
+
+#: inc/template-tags.php:432
+msgid "Read More"
+msgstr ""
+
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar.php:25
+msgid "Archives"
+msgstr ""
+
+#: template-parts/content-none.php:19
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:29
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:42
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:49
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching "
+"can help."
+msgstr ""
+
+#: template-parts/content-page.php:31 template-parts/posts/entry-content.php:37
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/navigation/navigation-top.php:28
+msgid "Toggle navigation"
+msgstr ""
+
+#: template-parts/posts/entry-content.php:17
+msgid " Continue Reading"
+msgstr ""

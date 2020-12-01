@@ -1,0 +1,155 @@
+/**
+ * 7.3.17 - Team Content Section
+ */
+
+.team-content-wrapper .hentry {
+    height: auto;
+}
+
+.team-content-wrapper .hentry-inner {
+    position: relative;
+}
+
+.team-content-wrapper .post-thumbnail,
+.team-content-wrapper .entry-title,
+.team-content-wrapper .entry-meta {
+    margin: 0;
+}
+
+.team-content-wrapper .entry-content {
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    
+    &:before {
+        bottom: 0;
+        content: "";
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff',endColorstr='#ffffff',GradientType=0);
+        height: 40%;
+        left: 0;
+        position: absolute;
+        width: 100%;
+    }
+}
+
+ #team-dots {
+    display: none;
+    margin: 0;
+}
+
+.team-content-wrapper.section-content-wrapper {
+    
+    .post-thumbnail {
+        margin-bottom: 0;
+    } 
+
+    .entry-container {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        bottom: 0;
+
+        .entry-title {
+            margin-bottom: 0;
+        }
+    }
+}
+
+#team-content-section .team-content-wrapper.owl-carousel {
+ 
+    .owl-nav {
+
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: -7px;
+        position: absolute;
+        right: 30px;
+
+        button {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+#team-content-section .team-content-wrapper.owl-carousel.hide-nav .owl-nav {
+    display: none;
+}
+
+.team-content-wrapper .entry-summary,
+.team-content-wrapper .entry-content {
+    margin: 14px 0 0;
+    padding-right: 0;
+}
+
+.team-content-wrapper .entry-title {
+    line-height: 1.46;
+}
+
+.team-content-wrapper .entry-meta {
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.team-content-wrapper .artist-social-profile {
+    margin-top: 7px;
+}
+
+#team-dots {
+    align-items: flex-start;
+    justify-content: center;
+    list-style: none;
+    position: relative;
+    width: 100%;
+
+    li {
+        cursor: pointer;
+        height: 75px;
+        margin-bottom: 35px;
+        margin-right: 5px;
+        opacity: 0.5;
+        position: relative;
+        width: 75px;
+
+        &:after {
+            bottom: -10px;
+            content: "";
+            height: 7px;
+            left: 0;
+            position: absolute;
+            width: 100%;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:focus,
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    .active {
+        opacity: 1;
+    }
+}
+
+#team-content-section .wrapper {
+    position: relative;
+}
+
+#team-content-section .view-more {
+    position: absolute;
+    top: 45px;
+    right: 20px;
+}
+
+.team-content-wrapper.section-content-wrapper .post-thumbnail a img {
+    width: 100%;
+}

@@ -1,0 +1,74 @@
+/**
+ * 7.3.7 - Footer
+ */
+
+#colophon .widget-column {
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+#colophon .widget {
+    background-color: transparent;
+}
+
+#site-generator {
+    clear: both;
+    padding: 15px;
+}
+
+#colophon {
+    background-repeat: no-repeat;
+}
+
+body #colophon .widget-column.above-footer {
+    width: 100%;
+}
+
+.footer-logo {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    max-width: 667px;
+    margin: 0 auto;
+
+    p {
+        margin-right: 15px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.footer-contact {
+    margin-top: 28px;
+}
+
+.site-info {
+    padding: 10px 15px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.site-info a {
+    text-decoration: none;
+}
+
+.site-info a:hover,
+.site-info a:focus {
+    text-decoration: underline;
+}
+
+#site-generator {
+    display: block;
+}
+
+.site-footer .widget-wrap .sub-menu {
+    display: none;
+}

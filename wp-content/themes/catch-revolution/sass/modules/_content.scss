@@ -1,0 +1,155 @@
+/**
+ * 6.6 - Content
+ */
+
+#page {
+    margin: 0 auto;
+    overflow-x: hidden;
+    position: relative;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.boxed-layout #page {
+    max-width: 1500px;
+}
+
+#site-generator,
+.wrapper {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1500px;
+    width: 100%;
+}
+
+.site-footer .wrapper {
+    max-width: 1500px;
+    padding: 0 30px;
+}
+
+.single .site-main .post-thumbnail,
+.page .site-main .post-thumbnail {
+    margin-top: 0;
+}
+
+#content #infinite-handle {
+    padding: 0 15px;
+}
+
+.home #content #infinite-handle {
+    padding: 0;
+}
+
+.header-media .wrapper,
+#footer-instagram .wrapper {
+    width: 100%;
+    max-width: 1920px;
+}
+
+.recent-blog-content .wrapper {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+#promotion-section .wrapper,
+#testimonial-content-section .wrapper {
+    max-width: 1920px;
+}
+
+.no-sidebar.archive:not(.woocommerce) .site-content > .wrapper{
+    padding: 42px 15px 0;
+
+    .content-area {
+        max-width: 920px;
+        margin: 0 auto;
+    }
+}
+
+.archive:not(.woocommerce) .site-content > .wrapper {
+    .content-area {
+        max-width: 100%;
+    }
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+    outline: 0;
+}
+
+.sidebar .widget-title {
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-transform: capitalize;
+}
+
+.sidebar .widget p {
+    margin-bottom: 28px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.archive-post-wrap .hentry-inner {
+    > div {
+        width: 100%;
+    }
+}
+
+#content {
+    position: relative;
+}
+
+.section-content-wrapper .entry-summary,
+.section-content-wrapper .entry-content {
+    margin: 14px 0 0;
+    width: 100%;
+}
+
+.featured-video-content-wrapper .hentry,
+.playlist-content-wrapper .hentry,
+.content-area .section-content-wrapper.layout-four .hentry,
+.featured-content-wrapper.layout-four .hentry,
+.portfolio-content-wrapper.layout-four .hentry,
+.service-content-wrapper.layout-four .hentry,
+.stats-content-wrapper.layout-four .hentry,
+.team-content-wrapper.layout-four .hentry,
+.content-area .section-content-wrapper.layout-three .hentry,
+.featured-content-wrapper.layout-three .hentry,
+.portfolio-content-wrapper.layout-three .hentry,
+.service-content-wrapper.layout-three .hentry,
+.stats-content-wrapper.layout-three .hentry,
+.team-content-wrapper.layout-three .hentry,
+.content-area .section-content-wrapper.layout-two .hentry,
+.featured-content-wrapper.layout-two .hentry,
+.portfolio-content-wrapper.layout-two .hentry,
+.service-content-wrapper.layout-two .hentry,
+.stats-content-wrapper.layout-two .hentry,
+.team-content-wrapper.layout-two .hentry,
+.events-content-wrapper.layout-two > *,
+.portfolio-content-wrapper.layout-five .hentry,
+.events-content-wrapper,
+.gallery-content-wrapper .hentry {
+    padding: 0 15px;
+}
+
+#contact-section .entry-title .title-two,
+.section-title .title-two {
+    font-style: italic;
+}
+
+.custom-header-content-wrapper .section-title span {
+    font-style: normal;
+}
+
+.home .header-media .entry-title {
+    line-height: 1.2;
+}
+
+.home .header-media .entry-title .title-two {
+    font-style: normal;
+}

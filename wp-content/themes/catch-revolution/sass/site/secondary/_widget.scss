@@ -1,0 +1,277 @@
+/**
+ * 7.2.1 - Widgets
+ */
+
+.widget-area:not(.sidebar) .widget .widget-title {
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+.widget .widget-title:empty {
+    margin-bottom: 0;
+}
+
+.widget_recent_entries li a {
+    font-weight: 600;
+}
+
+.widget ul,
+.widget ol {
+    list-style: none;
+    margin: 0;
+}
+
+.widget-area li {
+    line-height: 2;
+}
+
+.widget_categories li,
+.widget_archive li {
+    height: 1%;
+    overflow: hidden;
+}
+
+/* Calendar widget */
+.widget.widget_calendar table {
+    margin: 0;
+}
+
+.widget_calendar td,
+.widget_calendar th {
+    line-height: 3;
+    padding: 0;
+    text-align: center;
+}
+
+.widget_calendar caption {
+    font-weight: 600;
+}
+
+.widget_calendar tbody a {
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Recent Posts widget */
+.widget-area .gallery {
+    margin: 0;
+}
+
+.widget_recent_entries .post-date {
+    display: block;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    line-height: 1.615384615;
+    margin-bottom: 0.538461538em;
+}
+
+.widget_recent_entries li:last-child .post-date {
+    margin-bottom: 0;
+}
+
+/* RSS widget */
+.widget_rss .rsswidget img {
+    margin-top: -0.375em;
+}
+
+.widget_rss .rss-date,
+.widget_rss cite {
+    display: block;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-style: normal;
+    line-height: 1.615384615;
+    margin-bottom: 0.538461538em;
+}
+
+.widget_rss .rssSummary:last-child {
+    margin-bottom: 2.1538461538em;
+}
+
+.widget_rss li:last-child :last-child {
+    margin-bottom: 0;
+}
+
+/* Tag Cloud widget */
+.tagcloud a {
+    border: 1px solid;
+    display: inline-block;
+    line-height: 1;
+    margin: 0 0.1875em 0.4375em 0;
+    padding: 7px 14px;
+}
+
+.tagcloud a:hover,
+.tagcloud a:focus {
+    outline: 0;
+}
+
+#featured-grid-content .grid-box:hover .caption>.vcenter {
+    -webkit-transform: translateY(-50%) scale(1);
+    -ms-transform: translateY(-50%) scale(1);
+    transform: translateY(-50%) scale(1);
+}
+
+#footer-instagram .widget {
+    margin: 0;
+    padding: 0;
+}
+
+#footer-instagram .widget-title {
+    margin: 35px auto;
+    text-align: center;
+    letter-spacing: 0;
+    text-transform: capitalize;
+}
+
+#footer-instagram .widget-title {
+    display: none;
+}
+
+.widget-area .catch-instagram-feed-gallery-widget-wrapper .button {
+    border: none;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item,
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item {
+    margin: 0;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item,
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item {
+    width: 16.666%;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item:nth-child(3n+1),
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item:nth-child(3n+1) {
+    clear: none;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item:nth-child(6n+1),
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item:nth-child(6n+1) {
+    clear: both;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .instagram-button,
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .instagram-button {
+    display: none;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .button {
+    margin-top: 28px;
+}
+
+.widget-area .date-label {
+    display: none;
+}
+
+/* Footer Newsletter */
+
+.footer-newsletter:before,
+.footer-newsletter:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+#footer-newsletter .wrapper {
+    max-width: 1920px;
+}
+
+#footer-newsletter .widget {
+    clear: both;
+    margin: 0;
+    padding: 0 30px;
+}
+
+#footer-newsletter .widget-inner {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    max-width: 1020px;
+    margin: 42px auto;
+    padding: 35px;
+}
+
+#footer-newsletter .ewnewsletter .widget-inner-wrap {
+    padding: 0;
+    margin: 0;
+}
+
+#footer-newsletter .ewnewsletter .hentry {
+    text-align: left;
+    margin: 0;
+}
+
+#footer-newsletter .ewnewsletter .ew-newsletter-wrap .ew-newsletter-subbox {
+    border: none;
+    padding: 13px 21px;
+}
+
+.ew-newsletter-content-container >:last-child {
+    margin-bottom: 0;
+}
+
+.footer-newsletter .ew-newsletter-image-container {
+    margin-bottom: 21px;
+}
+
+.sidebar .widget ul {
+    margin-bottom: 0;
+}
+
+section.ew-tabbed-recent-popular .ui-tabs .ui-tabs-panel,
+section.ew-tabbed-recent-popular .ui-state-active, 
+section.ew-tabbed-recent-popular .ui-widget-content .ui-state-active, 
+section.ew-tabbed-recent-popular .ui-widget-header .ui-state-active {
+    background: transparent;
+    border: none;
+}
+
+.widget-area .essential-widgets .hentry .entry-title {
+    margin: 0;
+}
+
+.widget, 
+.widget .hentry, 
+.product, 
+.widget-column > section {
+    margin-bottom: 21px;
+}
+
+.sidebar .widget .widget-wrap {
+    padding: 30px;
+}
+
+.sidebar .widget.ew-tabbed-recent-popular .widget-wrap {
+    padding: 20px 10px;
+}
+
+.ew-tabbed-recent-popular .ui-tabs .ui-tabs-nav li a {
+    font-size: 18px;
+    font-size: 1.125rem;
+}
+
+section.ew-tabbed-recent-popular .ui-tabs .ui-tabs-panel, 
+section.ew-tabbed-recent-popular .ui-state-active, 
+section.ew-tabbed-recent-popular .ui-widget-content .ui-state-active,
+section.ew-tabbed-recent-popular .ui-widget-header .ui-state-active,
+section.ew-tabbed-recent-popular .ui-tabs .ui-tabs-nav li a, 
+section.ew-tabbed-recent-popular .ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active a {
+    padding: 20px;
+}
+
+section.ew-tabbed-recent-popular .ui-tabs {
+    padding: 0;
+}
+
+.widget_categories ul {
+    list-style: disc;
+    list-style-position: inside;
+}
+
+section.ew-tabbed-recent-popular .ui-tabs .ui-tabs-nav li {
+    margin-bottom: 0;
+}

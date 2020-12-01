@@ -1,0 +1,61 @@
+/**
+ * 7.3.9 - Hero Content
+ */
+
+#hero-section {
+    border: none;
+    text-align: center;
+}
+
+#hero-section .wrapper {
+    padding: 35px 30px;
+}
+
+#hero-section .hentry {
+    margin: 0;
+    padding: 0;
+    position: static;
+}
+
+.hero-content-wrapper .post-thumbnail-background {
+    background-position: center center;
+    background-size: cover;
+    content: "";
+    float: left;
+    left: auto;
+    padding-bottom: 100%;
+    position: relative;
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+    -webkit-box-shadow: -40px 40px 0px 0px rgba(250,114,104,1);
+    -moz-box-shadow: -40px 40px 0px 0px rgba(250,114,104,1);
+    box-shadow: -40px 40px 0px 0px rgba(250,114,104,1);
+}
+
+.hero-content-wrapper .entry-container {
+    clear: both;
+    margin: 0;
+    width: 100%;
+    padding: 30px;
+}
+
+.hero-content-wrapper .entry-title {
+    padding-top: 35px;
+}
+
+#hero-section .more-link {
+    padding: 0;
+}
+
+.color-scheme-dark .hero-content-wrapper .post-thumbnail-background {
+        -webkit-box-shadow: -40px 40px 0 0 #007CED;
+    -moz-box-shadow: -40px 40px 0 0 #007CED;
+    box-shadow: -40px 40px 0 0 #007CED;
+}
+
+#hero-section .section-content-wrapper {
+    overflow: hidden;
+}

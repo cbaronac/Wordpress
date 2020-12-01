@@ -1,0 +1,114 @@
+/**
+ * 7.3.12 - Playlist Section
+ */
+
+#playlist-section {
+	border: none;
+	position: relative;
+}
+
+.playlist-content-wrapper .wp-playlist .wp-playlist-tracks > div {
+background: #f9fafc;
+}
+
+.playlist-content-wrapper .hentry {
+
+    .hentry-inner {
+    	position: relative;
+
+        .post-thumbnail img {
+            margin: 0;
+            width: 100%;
+        }
+    }
+}
+
+
+#playlist-section .playlist-content-wrapper {
+
+    .wp-playlist-current-item,
+    .mejs-previous-button,
+    .mejs-next-button {
+        display: none;
+    }
+
+    .mejs-container {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .mejs-next {
+        padding-right: 0;
+    }
+}
+
+.playlist-content-wrapper .post-thumbnail-background {
+    background-position: right center;
+    background-size: cover;
+    content: "";
+    float: left;
+    margin-bottom: 21px;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.playlist-content-wrapper .entry-container {
+    clear: both;
+    width: 100%;
+}
+
+.playlist-content-wrapper .wp-playlist {
+    @include flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+
+    .mejs-time {
+        padding: 0;
+    }
+
+    .mejs-duration-container {
+        padding-left: 5px;
+        position: relative;
+    }
+
+    .mejs-currenttime-container {
+        padding-right: 5px;
+    }
+
+    .wp-playlist-current-item {
+    	margin: 0;
+
+        img {
+            display: none;
+        }
+    }
+
+    .wp-playlist-tracks {
+        width: 100%;
+    }
+}
+
+.playlist-content-wrapper .entry-title {
+	font-weight: 700;
+    text-transform: uppercase;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-total,
+.catch-revolution-mejs-container.mejs-container .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.color-scheme-default #sticky-playlist-section .mejs-controls .mejs-time-rail .mejs-time-total,
+.color-scheme-default #sticky-playlist-section .catch-revolution-mejs-container.mejs-container .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.color-scheme-default #sticky-playlist-section .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.color-scheme-default #sticky-playlist-section .mejs-time-handle-content,
+.color-scheme-default #sticky-playlist-section .mejs-horizontal-volume-current {
+    background-color: #000;
+}

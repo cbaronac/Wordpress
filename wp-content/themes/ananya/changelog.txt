@@ -1,0 +1,27 @@
+== Changelog ==
+
+= 1.0.5 - 26 October 2020 =
+* Added default widgets for sidebar area
+* Changed the default color value for the accent color
+
+= 1.0.4 - 22 October 2020 =
+* Added focus style to the read more button on blog page
+
+= 1.0.3 - 20 October 2020 =
+* Fixed issue of keyboard navigation in mobile menu
+* Fixed issue of keyboard navigation in search button
+* Updated theme translation
+
+= 1.0.2 - 4 September 2020 =
+* Added code to each php file for exit if file is accessed directly
+* Improved escaping
+* Changed the customizer control code
+
+= 1.0.1 - 11 August 2020 =
+* Improved keyboard navigation
+* Improved sanitization and escaping
+* Changed the screenshot.png file
+* Updated the readme.txt and ananya.pot files
+
+= 1.0 - 11 April 2020 =
+* Initial release
